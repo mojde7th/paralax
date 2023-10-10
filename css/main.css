@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  min-height: 1500px;
+}
+/* I think no need for Width as a div is block by default and will get all the width of dom. So unless changing display to sth other than block there is no need to specify width. later on after doing some projects please refer to this with certainty */
+div.parallax {
+  height: 500px;
+  background: url(../images/gamwwar.webp);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-attachment: fixed;
+  background-size: cover;
+}
+div.parallax2 {
+  height: 500px;
+  background-image: url(../images/2.webp);
+}
